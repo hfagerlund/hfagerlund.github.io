@@ -1,0 +1,35 @@
+# site settings
+title: My Open Source Catalog
+description: >- 
+  GitHub projects by Heini Fagerlund (@hfagerlund)
+baseurl: ""
+url: "https://hfagerlund.github.io"
+repository: "hfagerlund/hfagerlund.github.io"
+collections:
+  gh_projects:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: gh_projects
+    values:
+      layout: page
+
+# theme settings
+author: Heini Fagerlund
+copyright: Copyright &copy; 2017 Heini Fagerlund
+google_analytics: UA-38407980-5
+
+# build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README
+markdown: kramdown
+theme: jekyll-docskimmer-theme
+
+plugins: [jekyll-github-metadata]
+sass:
+    sass_dir: ./_scss
+    style: compressed
+
