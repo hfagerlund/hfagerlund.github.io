@@ -26,7 +26,6 @@ exclude:
   - Gemfile.lock
   - README
 markdown: kramdown
-theme: jekyll-docskimmer-theme
 
 plugins: [jekyll-github-metadata]
 sass:
