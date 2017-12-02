@@ -1,11 +1,5 @@
 require 'html-proofer'
 
-desc 'Remove generated site directory'
-task :clean do
-  FileUtils.rm_r("./_site")
-  Rake::Task["test"].invoke
-end
-
 desc 'Test build, links on generated site'
 task :test do
   sh "bundle exec jekyll build"
@@ -15,4 +9,4 @@ task :test do
     }).run
 end
 
-task :default => [:clean]
+task :default => [:test]
