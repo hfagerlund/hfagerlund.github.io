@@ -8,5 +8,5 @@ related:
     url: "/gh_projects/mkdocs-docskimmer.html"
 ---
 
-**jekyll-docskimmer-theme** is the official port of the [docSkimmer theme](/gh_projects/mkdocs-docskimmer) to Jekyll.
+**jekyll-docskimmer-theme** is the official port of the [docSkimmer theme](https://hfagerlund.github.io/gh_projects/mkdocs-docskimmer) to Jekyll.
 
