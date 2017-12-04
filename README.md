@@ -5,7 +5,7 @@ My [GitHub Pages](https://pages.github.com/) site powered by [Jekyll](https://je
 Currently serves as a [table of contents](https://hfagerlund.github.io/) listing of [my open-source projects on GitHub](https://github.com/hfagerlund/).
 
 ---
-## Important - Re: Jekyll version compatibility
+## Important - Re: GitHub Pages compatibility
 
 This branch of the project (ie. `use-with-jekyll-v3.2-and-above`) is compatible with **Jekyll v3.2+**. It does *not* work on GitHub Pages at the time of writing (December 2017), but was successfully tested (locally) using Jekyll v3.6. The directory structure on this branch is for the **gem-based theme** [jekyll-docskimmer-theme](https://github.com/hfagerlund/jekyll-docskimmer-theme), and is otherwise completely equivalent(*) to the [master branch of the project](https://github.com/hfagerlund/hfagerlund.github.io/).
 
