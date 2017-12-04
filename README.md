@@ -6,33 +6,41 @@ My [GitHub Pages](https://pages.github.com/) site powered by [Jekyll](https://je
 
 Currently serves as a [table of contents](https://hfagerlund.github.io/) listing of [my open-source projects on GitHub](https://github.com/hfagerlund/).
 
-[[Visit my Jekyll site](https://hfagerlund.github.io/)]
+[[Visit my Jekyll-powered GitHub Pages site](https://hfagerlund.github.io/)]
+
+---
+## Important - Re: Jekyll version compatibility
+
+This branch of the project (ie. `master`) is [published on GitHub Pages](https://hfagerlund.github.io/). Modifications have been made to the directory structure of the **gem-based theme** [jekyll-docskimmer-theme](https://github.com/hfagerlund/jekyll-docskimmer-theme), as well as (minimal) [configuration file modifications](https://github.com/hfagerlund/hfagerlund.github.io#theme-updates) for compatibility with GitHub Pages.
+
+For a directory structure that is compatible with gem-based themes without any modification, refer to the branch `use-with-jekyll-v3.2-and-above`:
+
+```
+$ git clone https://github.com/hfagerlund/hfagerlund.github.io.git
+$ cd hfagerlund.github.io
+$ git checkout -b use-with-jekyll-v3.2-and-above origin/use-with-jekyll-v3.2-and-above
+```
+
+---
 
 ## Theme updates
 
-Use the following steps to keep the [GitHub Pages project](https://github.com/hfagerlund/hfagerlund.github.io) in sync with updates to the [theme project](https://github.com/hfagerlund/jekyll-docskimmer-theme):
+Use the following steps to keep the [GitHub Pages project](https://github.com/hfagerlund/hfagerlund.github.io) `master` branch in sync with updates to the [theme project](https://github.com/hfagerlund/jekyll-docskimmer-theme):
 
 ```bash
-# using subtree merge strategy -
-## clone the GitHub Pages project
-git clone https://github.com/hfagerlund/hfagerlund.github.io.git
-cd hfagerlund.github.io
-## add the theme project as a git remote ('theme_remote')
-git remote add theme_remote https://github.com/hfagerlund/jekyll-docskimmer-theme.git
-git fetch theme_remote
-## create branch **before** merging theme updates
-git checkout -b theme-updates-branch theme_remote/master
-git checkout master
-## read content of the (latest) tree-object into 'jekyll-docskimmer-theme' (sub)directory
-git read-tree --prefix=jekyll-docskimmer-theme/ -u theme-updates-branch
-git merge --squash -s subtree --no-commit theme-updates-branch
-git commit -m "subtree merged into master"
-git checkout theme-updates-branch
-git pull
-git checkout master
-git merge --squash -s subtree --no-commit theme-updates-branch
-git add -A
-git commit -m "adds latest theme updates"
+$ git clone https://github.com/hfagerlund/hfagerlund.github.io.git
+$ cd hfagerlund.github.io
+$ git clone https://github.com/hfagerlund/jekyll-docskimmer-theme.git
+## move directories out of theme dir into root
+$ mv jekyll-docskimmer-theme/{_includes,_layouts,_sass} .
+$ mv jekyll-docskimmer-theme/assets/* ./assets
+$ rm -r jekyll-docskimmer-theme
+## modify files
+$ sed -i 's/theme: jekyll-docskimmer-theme//g' ./_config.yml
+$ sed -i 's/{{ site.theme }}/jekyll-docskimmer-theme/g' ./assets/css/style.scss
+$ sed -i '/jekyll-docskimmer-theme/d' ./Gemfile
+## generate new Gemfile.lock
+$ bundle install
 
 ```
 
