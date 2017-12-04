@@ -13,4 +13,4 @@ related:
 
 **docskimmer** is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs.
 
-This theme has also been [ported for **Jekyll**](/gh_projects/jekyll-docskimmer-theme).
+This theme has also been [ported for **Jekyll**](https://hfagerlund.github.io/gh_projects/jekyll-docskimmer-theme).
