@@ -9,7 +9,7 @@ Currently serves as a [table of contents](https://hfagerlund.github.io/) listing
 [[Visit my Jekyll-powered GitHub Pages site](https://hfagerlund.github.io/)]
 
 ---
-## Important - Re: Jekyll version compatibility
+## Important - Re: GitHub Pages compatibility
 
 This branch of the project (ie. `master`) is [published on GitHub Pages](https://hfagerlund.github.io/). Modifications have been made to the directory structure of the **gem-based theme** [jekyll-docskimmer-theme](https://github.com/hfagerlund/jekyll-docskimmer-theme), as well as (minimal) [configuration file modifications](https://github.com/hfagerlund/hfagerlund.github.io#theme-updates) for compatibility with GitHub Pages.
 
