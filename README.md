@@ -25,6 +25,10 @@ $ git checkout -b use-with-jekyll-v3.2-and-above origin/use-with-jekyll-v3.2-and
 
 ## Theme updates
 
+### After Nov. 29, 2017:
+(As of March 25, 2018) The site is now configured to [**automatically** receive theme (style) updates](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) from the [jekyll-docskimmer-theme](https://github.com/hfagerlund/jekyll-docskimmer-theme) project.
+
+### Before Nov. 29, 2017:
 Use the following steps to keep the [GitHub Pages project](https://github.com/hfagerlund/hfagerlund.github.io) `master` branch in sync with updates to the [theme project](https://github.com/hfagerlund/jekyll-docskimmer-theme):
 
 ```bash
