@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "jekyll-docskimmer-theme"
 gem "jekyll-github-metadata"
 
 gem "github-pages", :group => :jekyll_plugins
