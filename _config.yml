@@ -19,6 +19,7 @@ defaults:
 author: Heini Fagerlund
 copyright: Copyright &copy; 2017 Heini Fagerlund
 google_analytics: UA-38407980-5
+remote_theme: hfagerlund/jekyll-docskimmer-theme
 
 # build settings
 exclude:
