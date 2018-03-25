@@ -27,6 +27,7 @@ exclude:
   - Gemfile.lock
   - README
 markdown: kramdown
+github: [metadata]
 
 plugins: [jekyll-github-metadata]
 sass:

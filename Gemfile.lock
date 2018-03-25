@@ -1,5 +1,5 @@
 PATH
-  remote: https://github.com/hfagerlund/jekyll-docskimmer-theme
+  remote: https://github.com/hfagerlund/jekyll-docskimmer-theme/
   specs:
     jekyll-docskimmer-theme (0.1.2)
       jekyll (~> 3.6)
