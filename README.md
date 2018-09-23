@@ -6,7 +6,7 @@ My [GitHub Pages](https://pages.github.com/) site powered by [Jekyll](https://je
 
 Currently serves as a [table of contents](https://hfagerlund.github.io/) listing of [my open-source projects on GitHub](https://github.com/hfagerlund/).
 
-[[Visit my Jekyll-powered GitHub Pages site](https://hfagerlund.github.io/)]
+[[Visit my Jekyll-powered GitHub Pages site](https://hfagerlund.github.io/) > ]
 
 ---
 ## Important - Re: GitHub Pages compatibility
@@ -25,7 +25,7 @@ $ git checkout -b use-with-jekyll-v3.2-and-above origin/use-with-jekyll-v3.2-and
 
 ## Theme updates
 
-### After Nov. 29, 2017:
+### After [Nov. 29, 2017](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/):
 (As of March 25, 2018) The site is now configured to [**automatically** receive theme (style) updates](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) from the [jekyll-docskimmer-theme](https://github.com/hfagerlund/jekyll-docskimmer-theme) project.
 
 ### Before Nov. 29, 2017:
