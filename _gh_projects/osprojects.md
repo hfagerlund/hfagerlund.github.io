@@ -1,6 +1,6 @@
 ---
 title: "osprojects"
-description: "catalog of open source projects on Github by Heini Fagerlund (@hfagerlund)"
+description: "Catalog of open source projects on GitHub"
 repo_url: "https://github.com/hfagerlund/osprojects"
 ---
 
