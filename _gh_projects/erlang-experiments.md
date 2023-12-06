@@ -1,6 +1,6 @@
 ---
 title: "erlang-experiments"
-description: "a Dockerized Erlang app in the making"
+description: "A Dockerized Erlang app in the making"
 repo_url: "https://github.com/hfagerlund/erlang-experiments"
 ---
 
