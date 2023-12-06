@@ -1,6 +1,6 @@
 ---
 title: "hey-haskell"
-description: "an introduction to Haskell"
+description: "An introduction to Haskell"
 repo_url: "https://github.com/hfagerlund/hey-haskell"
 ---
 
