@@ -9,6 +9,9 @@ related:
   - title: "jekyll-docskimmer-theme"
     description: "docSkimmer theme for Jekyll"
     url: "/gh_projects/jekyll-docskimmer-theme.html"
+  - title: "docker-for-docskimmer"
+    description: "theme version-compatibility checker"
+    url: "/gh_projects/docker-for-docskimmer.html"
 ---
 
 **docskimmer** is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs.
