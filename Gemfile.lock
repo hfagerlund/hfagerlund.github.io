@@ -1,5 +1,7 @@
-PATH
-  remote: https://github.com/hfagerlund/jekyll-docskimmer-theme/
+GIT
+  remote: git://github.com/hfagerlund/jekyll-docskimmer-theme.git
+  revision: f2db97dbb980623bb50e2f9e28fb72f3341c8909
+  branch: master
   specs:
     jekyll-docskimmer-theme (0.1.2)
       jekyll (~> 3.6)
@@ -240,4 +242,4 @@ DEPENDENCIES
   rake
 
 BUNDLED WITH
-   1.16.0.pre.3
+   1.16.1
