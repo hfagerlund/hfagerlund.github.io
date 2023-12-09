@@ -1,5 +1,7 @@
 # hfagerlund.github.io
 
+[![pages-build-deployment](https://github.com/hfagerlund/hfagerlund.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/hfagerlund/hfagerlund.github.io/actions/workflows/pages/pages-build-deployment)
+
 [![Build Status](https://travis-ci.org/hfagerlund/hfagerlund.github.io.svg?branch=master)](https://travis-ci.org/hfagerlund/hfagerlund.github.io)
 
 My [GitHub Pages](https://pages.github.com/) site powered by [Jekyll](https://jekyllrb.com/) using [docSkimmer theme for Jekyll](https://github.com/hfagerlund/jekyll-docskimmer-theme).
