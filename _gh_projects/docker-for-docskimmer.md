@@ -1,6 +1,6 @@
 ---
 title: "docker-for-docskimmer"
-description: "theme version-compatibility checker built for docSkimmer"
+description: "Theme version-compatibility checker built for docSkimmer"
 repo_url: "https://github.com/hfagerlund/docker-for-docskimmer"
 related:
   - title: "mkdocs-docskimmer"
